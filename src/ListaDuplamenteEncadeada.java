@@ -69,8 +69,8 @@ public class ListaDuplamenteEncadeada {
                 anterior.setProximo(novo);
                 aux.setAnterior(novo);
                 novo.setProximo(aux);
+                tamanho++;
             }
-            tamanho++;
         }
     }
     public void removeElemento(Object elem){

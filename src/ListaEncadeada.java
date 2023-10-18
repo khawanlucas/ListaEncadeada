@@ -65,8 +65,8 @@ public class ListaEncadeada {
                 }
                 anterior.setProximo(novo);
                 novo.setProximo(aux);
+                tamanho++;
             }
-            tamanho++;
         }
     }
     public void removeElemento(Object elem){

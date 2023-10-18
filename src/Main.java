@@ -36,7 +36,7 @@ public class Main {
         c.adiciona(1);
         c.adiciona(2);
         c.adiciona(3);
-
+        c.topo();
         c.remove();
         c.remove();
         System.out.println(c.toString());

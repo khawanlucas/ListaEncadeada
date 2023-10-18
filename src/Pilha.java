@@ -10,4 +10,8 @@ public class Pilha extends ListaEncadeada{
     public void remove(){
         removePosicao(this.tamanho-1);
     }
+
+    public Object topo(){
+        return verElemento(this.tamanho-1);
+    }
 }

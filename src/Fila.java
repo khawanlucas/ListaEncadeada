@@ -10,4 +10,8 @@ public class Fila extends ListaEncadeada{
     public void adiciona(Object elem){
         adicionaFinal(elem);
     }
+
+    public Object inicio(){
+        return this.verElemento(0);
+    }
 }
